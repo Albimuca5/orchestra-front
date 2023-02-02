@@ -1,0 +1,681 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  /*width: 100px;*/
+
+  background: url("./assets/blackBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media only screen and (min-width: 280px) {
+
+  .katror1 {
+   
+    border: 6px solid transparent !important;
+    width: 0px !important;
+    height: 0px !important;
+  }
+
+  .katror2{
+    top:976px !important;
+    right: 50px !important;
+    width: 170px !important;
+  }
+
+  .katror3{
+    top:1705px !important;
+    right: 37px !important;
+    width: 178px !important;
+  }
+  .katror4{
+    top:2722px  !important;
+    right: 49px !important;
+    width: 180px !important;
+  }
+
+
+  .evente{
+    font-size: 41px !important;
+  }
+
+  .seShpejti{
+    font-size: 33px !important;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+
+  .katror1 {
+   
+    border: 6px solid transparent !important;
+    width: 0px !important;
+    height: 0px !important;
+  }
+
+  .katror2{
+    top:1018px !important;
+    right: 110px !important;
+    width: 210px !important;
+  }
+
+  .katror3{
+    top:1616px !important;
+    right: 75px !important;
+    width: 210px !important;
+  }
+  .katror4{
+    top:2680px !important;
+    right: 67px !important;
+    width: 240px !important;
+  }
+
+
+  .seShpejti{
+    font-size: 43px !important;
+  }
+}
+
+/* Extra small devices (phones, 391px and down) */
+
+@media only screen and (min-width: 375px) {
+
+  .katror1 {
+   
+    border: 6px solid transparent !important;
+    width: 0px !important;
+    height: 0px !important;
+  }
+
+  .katror2{
+    top:1023px !important;
+    right: 120px !important;
+    width: 210px !important;
+  }
+
+  .katror3{
+    top:1604px !important;
+    right: 85px !important;
+    width: 210px !important;
+  }
+  .katror4{
+    top:2680px !important;
+    right: 75px !important;
+    width: 240px !important;
+  }
+  .seShpejti{
+    font-size: 46px !important;
+  }
+}
+
+@media only screen and (min-width: 390px) {
+
+  .katror1 {
+   
+    border: 6px solid transparent !important;
+    width: 0px !important;
+    height: 0px !important;
+  }
+
+  .katror2{
+    top:1028px !important;
+    right: 130px !important;
+    width: 220px !important;
+  }
+
+  .katror3{
+    top:1615px !important;
+    right: 85px !important;
+    width: 220px !important;
+  }
+  .katror4{
+    top:2700px !important;
+    right: 80px !important;
+    width: 250px !important;
+  }
+  .seShpejti{
+    font-size: 46px !important;
+  }
+}
+
+@media only screen and (min-width: 412px) {
+
+  .katror1 {
+   
+    border: 6px solid transparent !important;
+    width: 0px !important;
+    height: 0px !important;
+  }
+
+  .katror2{
+    top:1042px !important;
+    right: 159px !important;
+    width: 204px !important;
+  }
+
+  .katror3{
+    top:1605px !important;
+    right: 103px !important;
+    width: 220px !important;
+  }
+  .katror4{
+    top:2708px !important;
+    right: 96px !important;
+    width: 250px !important;
+  }
+  .seShpejti{
+    font-size: 46px !important;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+
+  .katror1 {
+   
+    border: 6px solid transparent !important;
+    width: 0px !important;
+    height: 0px !important;
+  }
+
+  .katror2{
+    top:1042px !important;
+    right: 159px !important;
+    width: 204px !important;
+  }
+
+  .katror3{
+    top:1604px !important;
+    right: 103px !important;
+    width: 220px !important;
+  }
+  .katror4{
+    top:2705px !important;
+    right: 96px !important;
+    width: 250px !important;
+  }
+  .seShpejti{
+    font-size: 46px !important;
+  }
+}
+
+
+@media only screen and (min-width: 540px) {
+
+  .katror1 {
+   
+    border: 6px solid transparent !important;
+    width: 0px !important;
+    height: 0px !important;
+  }
+
+  .katror2{
+    top:1103px  !important;
+    right: 280px !important;
+    width: 204px !important;
+  }
+
+  .katror3{
+    top:1587px  !important;
+    right: 195px !important;
+    width: 220px !important;
+  }
+  .katror4{
+    top:2750px  !important;
+    right: 194px !important;
+    width: 250px !important;
+  }
+  .seShpejti{
+    font-size: 46px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .katror1 {
+   
+    border: 6px solid transparent !important;
+    width: 0px !important;
+    height: 0px !important; 
+  }
+
+  .seShpejti{
+    font-size: 46px !important;
+  }
+
+}
+
+@media only screen and (min-width: 740px) {
+  .mySwiper2 .swiper-slide {
+    height: 590px;
+  }
+  
+  .kutiSlide .button{
+    padding-top: -80px;
+  }
+
+  .katror1 {
+    border-radius: 10px !important;
+    border: 6px solid #7e2515 !important;
+  
+    width: 450px !important;
+    height: 550px !important;
+    z-index: -1 !important;
+    position: absolute !important;
+    top: 500px !important;
+    left: -20px !important;
+   
+  }
+
+  .katror2{
+    top:1200px !important;
+    right: 373px !important;
+  }
+
+  .katror3{
+    top:1685px !important;
+    right: 294px !important;
+  }
+  .katror4{
+    top:2850px !important;
+    right: 290px !important;
+  }
+
+  .seShpejti{
+    font-size: 46px !important;
+  }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  .mySwiper2 .swiper-slide {
+    height: 590px;
+  }
+  
+  .kutiSlide .button{
+    padding-top: -80px;
+  }
+
+  .katror1 {
+    border-radius: 10px !important;
+    border: 6px solid #7e2515 !important;
+  
+    width: 450px !important;
+    height: 550px !important;
+    z-index: -1 !important;
+    position: absolute !important;
+    top: 520px !important;
+    left: -40px !important;
+   
+  }
+
+  .katror2{
+    top:1212px !important;
+    right: 473px !important;
+  }
+
+  .katror3{
+    top:1665px !important;
+    right: 284px !important;
+  }
+  .katror4{
+    top:2920px !important;
+    right: 270px !important;
+  }
+
+  .seShpejti{
+    font-size: 46px !important;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 820px and up) */
+@media only screen and (min-width: 820px) {
+  .mySwiper2 .swiper-slide {
+    height: 590px;
+  }
+  .katror1 {
+    border-radius: 10px !important;
+    border: 6px solid #7e2515 !important;
+  
+    width: 450px !important;
+    height: 550px !important;
+    z-index: -1 !important;
+    position: absolute !important;
+    top: 520px !important;
+    left: -30px !important;
+   
+  }
+  
+  .kutiSlide .button{
+    padding-top: -80px;
+  }
+
+  .katror2{
+    top:1237px !important;
+    right: 493px !important;
+  }
+
+  .katror3{
+    top:1688px !important;
+    right: 317px !important;
+  }
+  .katror4{
+    top:2950px !important;
+    right: 287px !important;
+  }
+
+  .seShpejti{
+    font-size: 46px !important;
+  }
+
+}
+
+@media only screen and (min-width: 896px) {
+  .mySwiper2 .swiper-slide {
+    height: 590px;
+  }
+  .katror1 {
+    border-radius: 10px !important;
+    border: 6px solid #7e2515 !important;
+    width: 450px !important;
+    height: 550px !important;
+    z-index: -1 !important;
+    position: absolute !important;
+    top: 570px !important;
+    left: 10px !important;
+   
+  }
+  
+  .kutiSlide .button{
+    padding-top: -80px;
+  }
+
+  .katror2{
+    top:1282px  !important;
+    right: 539px !important;
+  }
+
+  .katror3{
+    top:1735px !important;
+    right: 365px !important;
+  }
+  .katror4{
+    top:2989px  !important;
+    right: 341px !important;
+  }
+
+  .seShpejti{
+    font-size: 46px !important;
+  }
+
+}
+
+
+@media only screen and (min-width: 912px) {
+  .mySwiper2 .swiper-slide {
+    height: 590px;
+  }
+  .katror1 {
+    border-radius: 10px !important;
+    border: 6px solid #7e2515 !important;
+    width: 450px !important;
+    height: 550px !important;
+    z-index: -1 !important;
+    position: absolute !important;
+    top: 570px !important;
+    left: 10px !important;
+   
+  }
+  
+  .kutiSlide .button{
+    padding-top: -80px;
+  }
+
+  .katror2{
+    top:1282px  !important;
+    right: 539px !important;
+  }
+
+  .katror3{
+    top:1735px !important;
+    right: 365px !important;
+  }
+  .katror4{
+    top:2989px  !important;
+    right: 341px !important;
+  }
+
+  .seShpejti{
+    font-size: 46px !important;
+  }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .mySwiper2 .swiper-slide {
+    height: 590px;
+  }
+
+  .katror1 {
+    border-radius: 10px !important;
+    border: 6px solid #7e2515 !important;
+    width: 450px !important;
+    height: 550px !important;
+    z-index: -1 !important;
+    position: absolute !important;
+    top: 870px !important;
+    left: 30px !important;
+  }
+
+  .katror2{
+    width: 240px !important;
+    top: 1043px !important;
+    right: 469px !important;
+  }
+  
+  .katror3{
+    width: 240px !important;
+    top: 1635px !important;
+    right: 667px !important;
+  }
+  
+  .katror4{
+    width: 286px !important;
+    top: 3266px !important;
+    right: 625px !important;
+  }
+
+  .seShpejti{
+    font-size: 46px !important;
+  }
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .katror1 {
+    border-radius: 10px !important;
+    border: 6px solid #7e2515 !important;
+    width: 450px !important;
+    height: 550px !important;
+    z-index: -1 !important;
+    position: absolute !important;
+    top: 628px  !important;
+    left: -35px !important;
+  }
+
+  .katror2{
+    width: 240px !important;
+    top: 772px  !important;
+    right: 225px !important;
+  }
+
+  .katror3{
+    width: 200px !important;
+    top: 1387px  !important;
+    right: 426px !important;
+  }
+  
+  .katror4{ 
+    width: 223px !important;
+    top: 2800px  !important;
+    right: 408px !important;
+  }
+
+  .seShpejti{
+    font-size: 32px !important;
+  }
+
+}
+
+@media only screen and (min-width: 1180px) {
+  .katror1 {
+    border-radius: 10px !important;
+    border: 6px solid #7e2515 !important;
+    width: 450px !important;
+    height: 550px !important;
+    z-index: -1 !important;
+    position: absolute !important;
+    top: 700px !important;
+    left: 0px !important;  
+  }
+
+  .katror2{  
+    width: 240px !important;
+    top: 847px !important;
+    right: 300px !important;
+  }
+
+  .katror3{ 
+    width: 210px !important;
+    top: 1460px !important;
+    right: 485px !important;
+  }
+  
+  .katror4{
+    width: 226px !important;
+    top: 2875px !important;
+    right: 480px !important;
+  }
+
+  .seShpejti{
+    font-size: 30px !important;
+  }
+
+}
+
+@media only screen and (min-width: 1280px) {
+  .katror1 {
+    border-radius: 10px !important;
+    border: 6px solid #7e2515 !important;
+    width: 450px !important;
+    height: 550px !important;
+    z-index: -1 !important;
+    position: absolute !important;
+    top: 750px !important;
+    left: -10px !important;  
+  }
+
+  .katror2{  
+    width: 240px !important;
+    top: 912px !important;
+    right: 340px !important;
+  }
+
+  .katror3{ 
+    width: 210px !important;
+    top: 1506px !important;
+    right: 560px !important;
+  }
+  
+  .katror4{
+    width: 266px !important;
+    top: 3028px !important;
+    right: 518px !important;
+  }
+
+  .seShpejti{
+    font-size: 38px !important;
+  }
+
+}
+
+@media only screen and (min-width: 1368px) {
+  .katror1 {
+    border-radius: 10px !important;
+    border: 6px solid #7e2515 !important;
+    width: 450px !important;
+    height: 550px !important;
+    z-index: -1 !important;
+    position: absolute !important;
+    top: 750px !important;
+    left: -10px !important;  
+  }
+
+  .katror2{  
+    width: 240px !important;
+    top: 955px !important;
+    right: 380px !important;
+  }
+
+  .katror3{ 
+    width: 210px !important;
+    top: 1550px !important;
+    right: 610px !important;
+  }
+  
+  .katror4{
+    width: 266px !important;
+    top: 3068px !important;
+    right: 558px !important;
+  }
+
+  .seShpejti{
+    font-size: 38px !important;
+  }
+
+}
+
+
+@media only screen and (min-width: 1440px) {
+  .katror1 {
+    border-radius: 10px !important;
+    border: 6px solid #7e2515 !important;
+    width: 450px !important;
+    height: 550px !important;
+    z-index: -1 !important;
+    position: absolute !important;
+    top: 832px !important;
+    left: -10px !important;  
+  }
+
+  .katror2{  
+    width: 240px !important;
+    top: 1000px !important;
+    right: 426px !important;
+  }
+
+  .katror3{ 
+    width: 210px !important;
+    top: 1583px !important;
+    right: 657px !important;
+  }
+  
+  .katror4{
+    width: 266px !important;
+    top: 3210px !important;
+    right: 590px !important;
+  }
+
+  .seShpejti{
+    font-size: 46px !important;
+  }
+
+}

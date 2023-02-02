@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inter&family=Mali:wght@300;400&family=Open+Sans&family=Poppins:wght@200&family=Raleway&family=Roboto:wght@300&family=Source+Sans+Pro:wght@600;700&display=swap');
+
+.eventTitle{
+    background-color: white;
+}
+
+.title{
+    color:#7e2515;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.scroll{
+    text-decoration: none;
+    color: #7e2515;
+    transition: ease-out 0.2s;
+}
+
+.scroll:hover{
+    color: black;
+
+}
+
+.eventCard{
+    background-color: 	rgba(41,41,41,255);
+}
+
+.title{
+    color: #7e2515;
+  }
+  
+  .scroll{
+    text-decoration: none;
+  }
+  
+  .vend{
+    color: rgb(192,192,192);
+  }
+  
+  .katror{
+    background-color: rgb(192,192,192);
+    height: 0.3px;
+    border-radius: 2px;
+  }
+
+  .futureEventCard{
+    background-color: rgba(41,41,41,255);
+  }
+
+  .btn-3{
+    width: 180px;
+    height: 50px;
+    border: none;
+    color: black;
+    background-color: #dd4377;
+    transition: ease-out 0.2s;
+    box-shadow: inset 0 0 0 0 black;
+    font-size: 1.3rem;
+    outline: none;
+
+    z-index: 9;
+   
+  }
+
+  .btn-3:hover{
+    color: white;
+  }

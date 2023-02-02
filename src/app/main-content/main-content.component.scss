@@ -1,0 +1,248 @@
+  
+@import "~swiper/css";
+@import "~swiper/css/effect-fade";
+@import "~swiper/css/navigation";
+@import "~swiper/css/pagination";
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inter&family=Mali:wght@300;400&family=Open+Sans:wght@600&family=Poppins:wght@200&family=Raleway&family=Roboto:wght@300&family=Source+Sans+Pro:wght@600;700&display=swap');
+
+
+.mySwiper .swiper {
+  max-width: 100%;
+  height: calc(100vh - 72px);
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.mySwiper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.mySwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  
+}
+
+.katror1 {
+  border-radius: 10px;
+  border: 6px solid #7e2515;
+  // padding: 20px;
+  width: 450px;
+  height: 550px;
+  position: absolute;
+  top: 870px;
+  left: 30px;
+  z-index: -1;
+}
+
+.foto1 img{
+  height: 550px;
+  width: 450px;
+  z-index: 2;
+}
+
+// .krijimtaria{
+//   background: #7e2515;
+//   background-size: auto;
+  
+// }
+
+.katror2{
+  background-color: #7e2515;
+  width: 240px;
+  height: 2.5px;
+  border-radius: 1px;
+  top: 1043px;
+  right: 469px;
+  position:absolute;
+  z-index: -1;
+}
+
+.katror3{
+  background-color: #7e2515;
+  width: 240px;
+  height: 3.5px;
+  border-radius: 1px;
+  top: 1635px;
+  right: 667px;
+  position:absolute;
+  z-index: -1;
+}
+
+.katror4{
+  background-color: #7e2515;
+  width: 286px;
+  height: 3.5px;
+  border-radius: 1px;
+  top: 3266px;
+  right: 625px;
+  position:absolute;
+  z-index: -1;
+}
+
+.sinfoText{
+  color: #7e2515;
+  font-family: 'Raleway', sans-serif;
+}
+
+.signature{
+  color: white;
+  font-family: 'Cookie', cursive;
+}
+
+.evente{
+  font-size: 50px;
+}
+
+.seShpejti{
+  
+    font-size: 46px;
+
+}
+
+// .mySwiper2 .swiper-slide {
+//   text-align: center;
+//   font-size: 18px;
+//   background: #fff;
+
+
+//   height: 590px;
+// }
+
+// .mySwiper2 .swiper-slide img {
+//   display: block;
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+// }
+
+
+// // // logo menus
+// // .logoimg{
+// //   width: 50px;
+// // }
+
+// .titull{
+//   text-align: center;
+// }
+
+
+// .slide:hover .kutiSlide{
+//   height: 50%;
+// }
+
+// .description{
+//   font-size: 16px;
+//   color: #a5a5a5;
+// }
+
+// .btn-2{
+//   width: 180px;
+//   height: 50px;
+//   border: none;
+//   color: black;
+//   background-color: white;
+//   transition: ease-out 0.2s;
+//   box-shadow: inset 0 0 0 0 black;
+//   font-size: 1.3rem;
+//   outline: none;
+ 
+// }
+
+.btn-2:hover{
+  box-shadow: inset 180px 0 0 0 black;
+  color: white;
+}
+
+.mySwiper3 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  height: 500px;
+}
+
+.mySwiper3 .swiper-slide img {
+  display: block;
+  width: 100%;
+ height: 50%;
+  object-fit: cover;
+}
+
+.latestSlide{
+    background-color: 	rgba(41,41,41,255);
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 1;
+    transition: ease-out 0.5s;
+    overflow:visible;
+  }
+
+
+  .btn-3{
+    width: 180px;
+    height: 50px;
+    border: none;
+    color: black;
+    background-color: #dd4377;
+    transition: ease-out 0.2s;
+    box-shadow: inset 0 0 0 0 black;
+    font-size: 1.3rem;
+    outline: none;
+    
+    // position:absolute;
+    // bottom:-25px;
+    // right: 550px;
+    z-index: 9;
+   
+  }
+
+  .btn-3:hover{
+    // box-shadow: inset 180px 0 0 0 black;
+    color: white;
+  }
+
+  .data{
+    font-size: 13px;
+  }
+
+  .kategoria{
+    font-size: 17px;
+    transition: ease-out 0.2s;
+    color: #dd4377;
+  }
+
+  .kategoria:hover{
+    color: white;
+  }
+
+
+  .overlay {
+    position: absolute;
+    bottom: 30px;
+    right: 383px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    color: white;
+    padding: 6px;
+    border: 4px solid white;
+    width: 700px;
+  }
+  
+  .overTitull{
+    font-size: 55px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+    
+  .overTitull2{
+    font-size: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  

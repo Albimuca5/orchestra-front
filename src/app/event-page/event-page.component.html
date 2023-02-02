@@ -1,0 +1,54 @@
+
+<div class="eventTitle pt-4 pb-3 mb-5  bg-white " >
+  <div class="container ">
+    <div class="row align-items-center justify-content-center">
+      
+      <div class="col-lg-8 col-md-7 col-sm-12">
+          <h1 class="title ms-5 ">{{event.title}}</h1>
+      </div>
+      <div class="col-lg-4 col-sm-3 col-md-5 d-flex align-items-center justify-content-end pe-5">
+
+        <h5 ><a class="scroll text-dark" href="#">Kryefaqja</a></h5>
+
+          <h5  class="ms-4 text-dark">/</h5>
+
+          <h5 class=" ms-4 "><a class="scroll text-dark"
+            href="#evente" >
+            Evente</a> 
+          </h5>
+      </div>
+    </div>
+  </div>
+   
+</div>
+
+<div class="container  mt-5" *ngIf="loading">
+  <div class="row">
+    <div class="col-lg-7 col-md-12 col-sm-12">
+     
+      <div class="card futureEventCard ms-5" >
+         <img src={{event.photoUrl}} class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="text-white mt-3">{{event.date}}</p>
+          <div class="katror col-12 mb-3"></div>
+
+          <div class="vendi d-flex">
+            <p class="card-text text-white me-2 fw-bold">Vendi: </p>
+            <p class="card-text vend ">{{event.place}}</p>
+          </div>
+          
+          <div class="orari d-flex">
+            <p class="card-text text-white me-2 fw-bold">Orari: </p>
+            <p class="card-text vend ">Fillon 18:00</p>
+          </div>
+
+          <h5 class="card-title text-white mt-3">{{event.title}}</h5>
+          <p class="card-text text-white">{{event.description}}</p>
+          <a href="#" class="btn btn-3 ">{{event.buttonUrl}}</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4"></div>
+  </div>
+</div>
+

@@ -1,0 +1,104 @@
+<div class="container mb-5">
+    <div class="row">
+      <div class="col-12">
+        <swiper
+          [slidesPerView]="3"
+          [spaceBetween]="30"
+          [pagination]="{
+            clickable: true
+          }"
+          [breakpoints]="{
+            '280': {
+              slidesPerView: 1,
+              spaceBetween: 20
+            },
+            '640': {
+              slidesPerView: 2,
+              spaceBetween: 20
+            },
+            '768': {
+              slidesPerView: 2,
+              spaceBetween: 10
+            },
+            '1024': {
+              slidesPerView: 2,
+              spaceBetween: 50
+            },
+            
+            '1280': {
+              slidesPerView: 3,
+              spaceBetween: 5
+            },
+            '1441': {
+              slidesPerView: 3,
+              spaceBetween: 50
+            }
+          }"
+          showsPagination={false}
+          class="mySwiper3 mt-5 mb-5 h-100"
+        >
+       
+          <ng-template swiperSlide *ngFor="let e of futureEvent">
+            <div class="card cardborder" style="width: 25.7rem; ;">
+                <img src={{e.photoUrl}} class="card-img-top w-100" >
+                <div class="card-body trupiFuture justify-content-center">
+                    <div class="d-flex">
+                        <p class="data text-start mt-2 ms-5 fw-light w-100">
+                          {{e.date}}
+                        </p>
+                        <p class="kategoria text-end mt-2 me-5 flex-shrink-1">Muzik</p>
+                      </div>
+                  <h4 class="titl card-title  mt-1 mb-1">{{e.title}}</h4>
+                  <p class="card-text descr text-muted text-white mt-3 ">{{e.description}}</p>
+                  <button (click)="navigate(e.id)" routerLinkActive="active" class=" btn btn-3 btn position-absolute top-100 start-50 translate-middle mt-2 justify-content-center"
+                  >{{e.buttonUrl}}</button>
+                  <!-- <a href="#" class="btn-3 btn position-absolute top-100 start-50 translate-middle mt-2">{{e.buttonUrl}}</a> -->
+                </div>
+              </div></ng-template>
+        </swiper>
+      </div>
+    </div>
+  </div>
+
+<!-- 
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-12">
+        <swiper
+          [slidesPerView]="3"
+          [spaceBetween]="30"
+          [pagination]="{
+            clickable: true
+          }"
+          showsPagination={false}
+          class="mySwiper3 mt-5 mb-5 h-100"
+        >
+       
+          <ng-template swiperSlide *ngFor="let e of futureEvent">
+            <div class="slide position-relative h-100">
+              <img src="../assets/carusel7.jpg" />
+              <div class="latestSlide position-relative text-white text-center">
+                <div class="d-flex">
+                  <p class="data text-white text-start mt-4 ms-5 fw-light w-100">
+                    17 QER 2022
+                  </p>
+                  <p class="kategoria text-end mt-4 me-5 flex-shrink-1">Muzik</p>
+                </div>
+  
+                <h3 class="titull mt-2">Tinguj Kinemaje 2022</h3>
+                <h6 class="subject mb-4">Nje festival me tinguj kinemaje</h6>
+                <h6 class="description text-center mb-3">
+                  Disa nga kolonat zanore më të bukura të historisë së
+                  kinematografisë shqiptare dhe botërore!
+                </h6>
+                <a href="#" class="btn-3 btn justify-content-center d-block position-absolute"
+                  >Lexo me shume</a
+                >
+              </div>
+            </div></ng-template>
+        </swiper>
+      </div>
+    </div>
+  </div>
+
+ -->

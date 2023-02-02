@@ -1,0 +1,66 @@
+<!-- 
+  <div class="container mt-4 mb-4">
+    <div class="row justify-content-center">
+      <div class="col-2 mt-5">
+        <h1 class="evente text-white">Evente</h1>
+      </div>
+      <div class="katror3"></div>
+    </div>
+  </div> -->
+
+<div  class="container mb-5">
+    <div class="row">
+      <div class="col-12">
+        <swiper 
+          [slidesPerView]="3"
+          [spaceBetween]="30"
+          [pagination]="{
+            clickable: true
+          }"
+          [breakpoints]="{
+            
+            '280': {
+              slidesPerView: 1,
+              spaceBetween: 20
+            },
+            '640': {
+              slidesPerView: 2,
+              spaceBetween: 20
+            },
+            '768': {
+              slidesPerView: 2,
+              spaceBetween: 40
+            },
+            '1024': {
+              slidesPerView: 2,
+              spaceBetween: 50
+            }
+            ,
+            '1441': {
+              slidesPerView: 3,
+              spaceBetween: 50
+            }
+
+          }"
+          showsPagination={false}
+          class="mySwiper2 mt-5 mb-5" 
+        >
+          <ng-template swiperSlide *ngFor="let e of event">
+            <div class="slide h-100 position-relative">
+              <img src={{e.photoUrl}} />
+              <div class="kutiSlide text-white text-center">
+                <h2 class="titull mt-5 mb-2">{{e.title}}</h2>
+                <h6 class="subject mb-5">{{e.subject}}</h6>
+                <h6 class="description mb-4">
+                 {{e.description}}
+                </h6>
+                <button (click)="navigate(e.id)" routerLinkActive="active"  class="btn-2 btn justify-content-center"
+                  >{{e.buttonUrl}}</button>
+              </div>
+            </div>
+        </ng-template>
+        </swiper>
+      </div>
+    </div>
+  </div>
+  

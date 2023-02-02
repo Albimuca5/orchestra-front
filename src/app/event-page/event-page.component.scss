@@ -1,0 +1,250 @@
+@import "~swiper/css";
+@import "~swiper/css/effect-fade";
+@import "~swiper/css/navigation";
+@import "~swiper/css/pagination";
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inter&family=Mali:wght@300;400&family=Open+Sans:wght@600&family=Poppins:wght@200&family=Raleway&family=Roboto:wght@300&family=Source+Sans+Pro:wght@600;700&display=swap');
+
+ 
+
+
+
+
+// .krijimtaria{
+//   background: #7e2515;
+//   background-size: auto;
+  
+// }
+
+.katror2{
+  background-color: #7e2515;
+  width: 240px;
+  height: 2.5px;
+  border-radius: 1px;
+  top: 1039px;
+  right: 461px;
+  position:absolute;
+  z-index: -1;
+}
+
+.katror3{
+  background-color: #7e2515;
+  width: 240px;
+  height: 3.5px;
+  border-radius: 1px;
+  top: 1630px;
+  right: 665px;
+  position:absolute;
+  z-index: -1;
+}
+
+
+
+.sinfoText{
+  color: #7e2515;
+  font-family: 'Raleway', sans-serif;
+}
+
+.signature{
+  color: white;
+  font-family: 'Cookie', cursive;
+}
+
+.evente{
+  font-size: 50px;
+}
+
+.seShpejti{
+  
+    font-size: 46px;
+
+}
+.mySwiper2 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  // display: -webkit-box;
+  // display: -ms-flexbox;
+  // display: -webkit-flex;
+  // display: flex;
+  // -webkit-box-pack: center;
+  // -ms-flex-pack: center;
+  // -webkit-justify-content: center;
+  // justify-content: center;
+  // -webkit-box-align: center;
+  // -ms-flex-align: center;
+  // -webkit-align-items: center;
+  // align-items: center;
+  height: 590px;
+}
+
+.mySwiper2 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.kutiSlide{
+  background-color: #7e2515;
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.95;
+  transition: ease-out 0.5s;
+}
+
+
+// // logo menus
+// .logoimg{
+//   width: 50px;
+// }
+
+.titull{
+  text-align: center;
+}
+
+
+.slide:hover .kutiSlide{
+  height: 50%;
+}
+
+.description{
+  font-size: 16px;
+  color: #a5a5a5;
+}
+
+.btn-2{
+  width: 180px;
+  height: 50px;
+  border: none;
+  color: black;
+  background-color: white;
+  transition: ease-out 0.2s;
+  box-shadow: inset 0 0 0 0 black;
+  font-size: 1.3rem;
+  outline: none;
+ 
+}
+
+.btn-2:hover{
+  box-shadow: inset 180px 0 0 0 black;
+  color: white;
+}
+
+.mySwiper3 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  height: 500px;
+}
+
+.mySwiper3 .swiper-slide img {
+  display: block;
+  width: 100%;
+ height: 50%;
+  object-fit: cover;
+}
+
+.latestSlide{
+    background-color: 	rgba(41,41,41,255);
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 1;
+    transition: ease-out 0.5s;
+    overflow:visible;
+  }
+
+
+  .btn-3{
+    width: 180px;
+    height: 50px;
+    border: none;
+    color: black;
+    background-color: #dd4377;
+    transition: ease-out 0.2s;
+    box-shadow: inset 0 0 0 0 black;
+    font-size: 1.3rem;
+    outline: none;
+    
+    // position:absolute;
+    // bottom:-25px;
+    // right: 550px;
+    z-index: 9;
+   
+  }
+
+  .btn-3:hover{
+    // box-shadow: inset 180px 0 0 0 black;
+    color: white;
+  }
+
+  .data{
+    font-size: 13px;
+  }
+
+  .kategoria{
+    font-size: 17px;
+    transition: ease-out 0.2s;
+    color: #dd4377;
+  }
+
+  .kategoria:hover{
+    color: white;
+  }
+
+
+  .overlay {
+    position: absolute;
+    bottom: 30px;
+    right: 383px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    color: white;
+    padding: 6px;
+    border: 4px solid white;
+    width: 700px;
+  }
+  
+  .overTitull{
+    font-size: 55px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+    
+  .overTitull2{
+    font-size: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+.futureEventCard{
+  background-color: rgba(41,41,41,255);
+}
+
+
+.title{
+  color: #7e2515;
+}
+
+.scroll{
+  text-decoration: none;
+}
+
+.vend{
+  color: rgb(192,192,192);
+}
+
+.katror{
+  background-color: rgb(192,192,192);
+  height: 0.3px;
+  border-radius: 2px;
+}
