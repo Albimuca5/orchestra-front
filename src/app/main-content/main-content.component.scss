@@ -33,8 +33,8 @@
   width: 450px;
   height: 550px;
   position: absolute;
-  top: 870px;
-  left: 30px;
+  top: -29px !important;
+  right: 0 !important;
   z-index: -1;
 }
 
@@ -55,30 +55,30 @@
   width: 240px;
   height: 2.5px;
   border-radius: 1px;
-  top: 1043px;
-  right: 469px;
+  top: 29px !important;
+  left: -24px;
   position:absolute;
   z-index: -1;
 }
 
 .katror3{
   background-color: #7e2515;
-  width: 240px;
+  width: 220px;
   height: 3.5px;
   border-radius: 1px;
-  top: 1635px;
-  right: 667px;
+  top: 28px !important;
+  left: -44px;
   position:absolute;
   z-index: -1;
 }
 
 .katror4{
   background-color: #7e2515;
-  width: 286px;
+  width: 246px;
   height: 3.5px;
   border-radius: 1px;
-  top: 3266px;
-  right: 625px;
+  top: 28px !important;
+  left: -30px;
   position:absolute;
   z-index: -1;
 }
