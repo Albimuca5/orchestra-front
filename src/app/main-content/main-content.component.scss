@@ -27,14 +27,14 @@
 }
 
 .katror1 {
-  border-radius: 10px;
-  border: 6px solid #7e2515;
+  border-radius: 6px !important;
+  border: 3px solid #7e2515 !important;
   // padding: 20px;
   width: 450px;
   height: 550px;
   position: absolute;
-  top: -29px !important;
-  right: 0 !important;
+  top: -36px !important;
+  left: -10 !important;
   z-index: -1;
 }
 
