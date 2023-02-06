@@ -62,20 +62,6 @@
   text-align: center;
   font-size: 18px;
   background: #fff;
-
-  /* Center slide text vertically */
-  // display: -webkit-box;
-  // display: -ms-flexbox;
-  // display: -webkit-flex;
-  // display: flex;
-  // -webkit-box-pack: center;
-  // -ms-flex-pack: center;
-  // -webkit-justify-content: center;
-  // justify-content: center;
-  // -webkit-box-align: center;
-  // -ms-flex-align: center;
-  // -webkit-align-items: center;
-  // align-items: center;
   height: 590px;
 }
 
@@ -84,6 +70,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.mySwiper2 .swiper-pagination-bullet-active {
+  background-color: #fff !important;
 }
 
 
@@ -151,6 +141,9 @@
   object-fit: cover;
 }
 
+.mySwiper3 .swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
 .latestSlide{
     background-color: 	rgba(41,41,41,255);
     width: 100%;

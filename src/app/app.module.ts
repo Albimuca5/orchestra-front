@@ -4,7 +4,6 @@ import { FormsModule } from "@angular/forms";
 import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MenuComponent } from './menu/menu.component';
 import { SwiperModule } from "swiper/angular";
 import { RouterModule } from '@angular/router';
 import { EventPageComponent } from './event-page/event-page.component';
@@ -20,7 +19,6 @@ import { FutureEventPageComponent } from './future-event-page/future-event-page.
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent,
     EventPageComponent,
     MainContentComponent,
     NavbarComponent,
@@ -40,7 +38,6 @@ import { FutureEventPageComponent } from './future-event-page/future-event-page.
       {path: 'event-post', component: EventPostComponent},
       {path: 'future-event', component: FutureEventComponent},
       {path: 'future-event-page', component: FutureEventPageComponent},
-      { path: 'menu', component: MenuComponent },
     ]),
   ],
   providers: [],

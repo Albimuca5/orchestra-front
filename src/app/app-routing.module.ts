@@ -4,7 +4,7 @@ import { EventPageComponent } from './event-page/event-page.component';
 import { EventPostComponent } from './event-post/event-post.component';
 import { FutureEventComponent } from './future-event/future-event.component';
 import { FutureEventPageComponent } from './future-event-page/future-event-page.component';
-import { MenuComponent } from './menu/menu.component';
+
 
 const routes: Routes = [
   { path: 'event-page', component: EventPageComponent },
@@ -12,7 +12,6 @@ const routes: Routes = [
   {path: 'future-event', component: FutureEventComponent},
   { path: 'future-event-page/:id', component: FutureEventPageComponent },
   { path: 'event-page/:id', component: EventPageComponent },
-  { path: 'menu', component: MenuComponent },
 ];
 
 @NgModule({

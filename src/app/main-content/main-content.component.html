@@ -1,32 +1,28 @@
-<app-menu></app-menu>
-
 <div class="container-fluid position-relative">
   <div class="row">
     <div class="col-xl-12 col-lg-12 col-12">
+
       <swiper [spaceBetween]="30" [effect]="'fade'" [navigation]="true" [pagination]="{
-        clickable: true
-      }" showsPagination={false} class="mySwiper mb-4 ">
+        clickable: true 
+      }" showsPagination={false} class="mySwiper mb-4  position-relative" (slideChange)="onSlideChange($event)">
         <ng-template swiperSlide>
           <img src="../assets/carusel10.jpg" class="img-fluid" />
-          <!-- <div class="overlay centered justify-content-center">
-            <h1 class="overTitull mt-2 text-white text-center">Faqja zyrtare</h1>
-            <h1 class="overTitull2 text-white text-center">Sinfoart Albania</h1>
-          </div> -->
+
+          <div class="animationText">
+            <span class="btn-custom"> Mirëserdhët në</span>
+            <span class="btn-custom"> Sinfoart</span>
+          </div>
+
         </ng-template><ng-template swiperSlide><img src="../assets/carusel12.jpg" class="img-fluid" />
-          <!-- <div class="overlay centered justify-content-center">
-            <h1 class="overTitull mt-2 text-white text-center">Faqja zyrtare</h1>
-            <h1 class="overTitull2 text-white text-center">Sinfoart Albania</h1>
-          </div> -->
-        </ng-template><ng-template swiperSlide><img src="../assets/carusel11.jpg" class="img-fluid" />
-          <!-- <div class="overlay centered justify-content-center">
-            <h1 class="overTitull mt-2 text-white text-center">Faqja zyrtare</h1>
-            <h1 class="overTitull2 text-white text-center">Sinfoart Albania</h1>
-          </div> -->
+          <div class="animationText">
+            <span class="btn-custom"> Tinguj të njohur</span>
+            <span class="btn-custom"> Kinemaje</span>
+          </div>
         </ng-template><ng-template swiperSlide><img src="../assets/carusel3.jpg" class="img-fluid" />
-          <!-- <div class="overlay centered justify-content-center">
-            <h1 class="overTitull mt-2 text-white text-center">Faqja zyrtare</h1>
-            <h1 class="overTitull2 text-white text-center">Sinfoart Albania</h1>
-          </div> -->
+          <div class="animationText">
+            <span class="btn-custom"> Festojmë</span>
+            <span class="btn-custom"> së bashku</span>
+          </div>
         </ng-template>
       </swiper>
     </div>
@@ -59,12 +55,12 @@
 
 
       <h5 class="text-white mb-4">
-        Shoqata SinfoArt  është themeluar, si një bashkëpunim artistik muzikantësh.
+        Shoqata SinfoArt është themeluar, si një bashkëpunim artistik muzikantësh.
       </h5>
 
       <h6 class="text-white mb-3">
-         Ajo do të ndihmojë në krijimin e një infrastrukture të re juridike, 
-         e cila do ti hape impulse të reja zhvillimit të artit dhe kulturës në vend.
+        Ajo do të ndihmojë në krijimin e një infrastrukture të re juridike,
+        e cila do ti hape impulse të reja zhvillimit të artit dhe kulturës në vend.
       </h6>
 
       <div class="d-flex">
@@ -173,7 +169,7 @@
 <div class="container mt-5 mb-5">
   <div class="row justify-content-center">
     <div class="youtubeVideo  position-relative">
-      <iframe  src="https://www.youtube.com/embed/mcixldqDIEQ" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/mcixldqDIEQ" frameborder="0" allowfullscreen></iframe>
     </div>
 
   </div>
