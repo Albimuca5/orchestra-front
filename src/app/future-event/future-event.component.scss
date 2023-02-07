@@ -124,6 +124,7 @@
 .btn-2:hover{
   box-shadow: inset 180px 0 0 0 black;
   color: white;
+  
 }
 
 .mySwiper3 .swiper-slide {
@@ -171,6 +172,10 @@
   .btn-3:hover{
     // box-shadow: inset 180px 0 0 0 black;
     color: white;
+    box-shadow: 0 0 5px #dd4377,
+                0 0 2px #dd4377,
+                0 0 50px #dd4377,
+                0 0 200px #dd4377;
   }
 
   .data{

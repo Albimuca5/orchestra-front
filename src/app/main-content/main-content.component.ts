@@ -3,7 +3,7 @@ import { Component, OnChanges, OnInit, ViewChild, ViewEncapsulation } from '@ang
 import { SwiperComponent } from "swiper/angular";
 import { Router } from '@angular/router';
 // import Swiper core and required modules
-import SwiperCore, { EffectFade, Navigation, Pagination } from "swiper";
+import SwiperCore, { EffectFade, Navigation, Pagination ,Autoplay} from "swiper";
 
 // install Swiper modules
 SwiperCore.use([EffectFade, Navigation, Pagination]);
@@ -52,5 +52,6 @@ export class MainContentComponent implements OnInit, OnChanges {
   ngAfterViewInit(): void {
     this.addTransition(0)
   }
+  
 
 }
