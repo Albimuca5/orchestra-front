@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HttpClientService } from '../service/http-client.service';
+import { EventPage } from './event.model';
 
 @Component({
   selector: 'app-event-page',
@@ -9,7 +10,7 @@ import { HttpClientService } from '../service/http-client.service';
 })
 export class EventPageComponent implements OnInit {
 
-  event: any;
+  event!: EventPage;
   loading: boolean = false;
   id:any;
   constructor(private service: HttpClientService, 
@@ -21,12 +22,23 @@ export class EventPageComponent implements OnInit {
     this.id=0;
     this.route.params.subscribe((params: any) => {
       this.id = params["id"];
-    this.service.getEventById(this.id).subscribe(res=>{
-      this.event = res;
-      console.log("res" , this.event);
+    // this.service.getEventById(this.id).subscribe(res=>{
+    //   console.log(JSON.stringify(res))
+    //   this.event = res;
+    //   console.log("res" , this.event);
 
-      this.loading= true;
-    });
+    //   this.loading= true;
+    // });
+    this.service.getEventById(this.id).subscribe({
+      next:(res)=>{
+        console.log(res);
+        this.event = res;
+        console.log("res" , this.event);
+        this.loading= true;
+      },error(err) {
+        
+      },
+    })
   });
   }
 

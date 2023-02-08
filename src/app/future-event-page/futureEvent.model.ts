@@ -10,6 +10,7 @@ export class FutureEvent{
       public buttonUrl:string,
       public videoUrl:string,
       public bigDescription:string,
-      public date:string
+      public date:string,
+      public placeMapUrl:string
     ) {}
   }

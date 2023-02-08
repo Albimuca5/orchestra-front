@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { EventPostComponent } from './event-post/event-post.component';
 import { FutureEventComponent } from './future-event/future-event.component';
 import { FutureEventPageComponent } from './future-event-page/future-event-page.component';
+import { SafePipe } from 'src/pipes/safe.pipe';
 
 
 
@@ -25,6 +26,7 @@ import { FutureEventPageComponent } from './future-event-page/future-event-page.
     EventPostComponent,
     FutureEventComponent,
     FutureEventPageComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

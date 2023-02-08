@@ -258,13 +258,13 @@ display: block;
   letter-spacing: 8px;
   margin-bottom: 20px;
   position: relative;
-  animation:text 3s 1;
+  animation:text 2s 1;
 }
 
 .textb{
   font-size: 30px;
   color:white;
-  animation:textz 3s 1;
+  animation:textz 2s 1;
 }
 
 @keyframes text {
@@ -438,6 +438,13 @@ display: block;
 
 @media only screen and (min-width: 768px) {
 
+  .mySwiper .swiper-pagination-bullet-active {
+    width: 7px;
+    height: 7px;
+    background-color: #000 !important;
+  border:1px solid white;
+  }
+
   .texta{ 
     font-size: 30px;
     font-weight: 500;
@@ -467,8 +474,16 @@ display: block;
 
 @media only screen and (min-width: 1024px) {
 
+  
+  .mySwiper .swiper-pagination-bullet-active {
+    width: 11px;
+    height: 11px;
+    background-color: #000 !important;
+  border:2px solid white;
+  }
+
   .texta{ 
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
     letter-spacing: 7px;
     margin-bottom: 20px;

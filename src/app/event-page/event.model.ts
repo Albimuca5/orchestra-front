@@ -1,18 +1,21 @@
-import { StringifyOptions } from "querystring";
-
-export class Event{
-    constructor(
-      public title:string,
-      public subject:string,
-      public id:BigInteger,
-      public description:string,
-      public orderId:BigInteger,
-      public photoUrl:string,
-      public status:boolean,
-      public buttonUrl:string,
-      public videoUrl:string,
-      public bigDescription:string,
-      public date:string,
-      public place:string
-    ) {}
-  }
+export interface EventPage {
+  id: number;
+  status: boolean;
+  title: string;
+  subject: string;
+  description: string;
+  photoUrl: string;
+  buttonUrl: string;
+  videoUrl: string;
+  bigDescription: string;
+  date: string;
+  time: string;
+  place: string;
+  foto1: string;
+  foto2: string;
+  foto3: string;
+  foto4: string;
+  foto5: string;
+  foto6: string;
+  orderId: number;
+}

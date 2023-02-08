@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { FutureEvent } from '../future-event/futureEvent.model';
+import { EventPage } from '../event-page/event.model';
+import { Observable } from 'rxjs';
 
 
 @Injectable({
@@ -32,10 +34,10 @@ export class HttpClientService {
     return this.httpClient.get<any>('http://localhost:8083/futureEvent/'+id);
   }
 
-  getEventById(id:number)
+  getEventById(id:number):Observable<EventPage>
   {
     console.log("/event/{id}");
-    return this.httpClient.get<any>('http://localhost:8083/event/'+id);
+    return this.httpClient.get<EventPage>('http://localhost:8083/event/'+id);
   }
 
   }
