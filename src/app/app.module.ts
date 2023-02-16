@@ -14,6 +14,7 @@ import { EventPostComponent } from './event-post/event-post.component';
 import { FutureEventComponent } from './future-event/future-event.component';
 import { FutureEventPageComponent } from './future-event-page/future-event-page.component';
 import { SafePipe } from 'src/pipes/safe.pipe';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -26,7 +27,8 @@ import { SafePipe } from 'src/pipes/safe.pipe';
     EventPostComponent,
     FutureEventComponent,
     FutureEventPageComponent,
-    SafePipe
+    SafePipe,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
